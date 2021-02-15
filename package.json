@@ -1,0 +1,23 @@
+{
+  "name": "popular-english-words",
+  "version": "1.0.0",
+  "description": "A long list of English words, orderd by popularity",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tkoop/popular-english-words.git"
+  },
+  "keywords": [
+    "english",
+    "words"
+  ],
+  "author": "Tim Koop",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tkoop/popular-english-words/issues"
+  },
+  "homepage": "https://github.com/tkoop/popular-english-words#readme"
+}
