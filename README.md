@@ -13,6 +13,12 @@ From command line:
 npm i popular-english-words
 ```
 
+You might need to do this first in a brand new project.
+```
+npm init --yes
+```
+
+
 In your JavaScript file:
 ```
 import {words} from 'popular-english-words'
@@ -28,27 +34,35 @@ popularWords.forEach(word => {
 # Methods available (in the "words" object)
 
 `getMostPopular(count)`
+
 This returns an array of `count` of the most popular words
 
 `getMostPopularLength(count, length)`
+
 This returns an array of `count` words of length `length`
 
 `getMostPopularFilter(count, test)`
+
 This returns an array of `count` words that pass the test. `test` is a function that is passed a words and should return a boolean.  See the example.js file for an example.
 
 `getMostPopularRegex(count, regex)`
+
 This returns an array of `count` words that match the `regex` regular expression.  See the example.js file for an example.
 
 `getWordRank(word)`
+
 This returns an integer of where it is found in our list. The first word is zero. If the word is not found, it returns -1.
 
 `getWordAtPosition(position)` 
+
 This returns the word at position `position`.  Zero is the first word. `position` should not be greater than `getWordCount() - 1`
 
 `getWordCount()` 
+
 Returns the total number of words in our list.
 
 `getAll()`
+
 Returns our full list of words as an array.
 
 # About these English words
