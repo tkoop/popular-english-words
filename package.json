@@ -1,7 +1,7 @@
 {
   "name": "popular-english-words",
   "type": "module",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A long list of English words, orderd by popularity",
   "main": "index.js",
   "scripts": {

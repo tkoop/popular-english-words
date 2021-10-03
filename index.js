@@ -1,6 +1,5 @@
 import {words as list} from './words.js'
 
-console.log("word length is " + list.length)
 
 class Words {
 
